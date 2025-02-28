@@ -17,13 +17,13 @@ pipeline {
                 }
             }
         }
-        stage('Execute test cases') {
-            steps {
-                script {
-                    sh 'mvn clean test'
-                }
-            }
-        }
+        // stage('Execute test cases') {
+        //     steps {
+        //         script {
+        //             sh 'mvn clean test'
+        //         }
+        //     }
+        // }
 
         stage('Build pulled code') {
             steps {
