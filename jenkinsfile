@@ -27,8 +27,9 @@ pipeline {
 
         // ngrok added
         // csrf disabled
-        // fdfdf
-        
+        // csrf
+        // SSL OFF
+
 
         stage('Build pulled code') {
             steps {
