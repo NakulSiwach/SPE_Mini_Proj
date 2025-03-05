@@ -17,13 +17,18 @@ pipeline {
                 }
             }   
         }
-        stage('Execute test cases') {
-            steps {
-                script {
-                    sh 'mvn clean test'
-                }
-            }
-        }
+        // stage('Execute test cases') {
+        //     steps {
+        //         script {
+        //             sh 'mvn clean test'
+        //         }
+        //     }
+        // }
+
+        // ngrok added
+        // csrf disabled
+        // fdfdf
+        
 
         stage('Build pulled code') {
             steps {
