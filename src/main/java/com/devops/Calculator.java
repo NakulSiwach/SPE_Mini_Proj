@@ -25,6 +25,9 @@ public class Calculator {
         return fact;
     }
 
+    // "hi there"
+    // "didn't work"
+
     public double naturalLog(double num) {
         if (num <= 0) {
             logger.error("Logarithm is not defined for zero or negative numbers: {}", num);
