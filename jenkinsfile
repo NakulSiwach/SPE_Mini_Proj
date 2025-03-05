@@ -29,7 +29,7 @@ pipeline {
         // csrf disabled
         // csrf
         // SSL OFF
-        // poll enables with GITSCM polling
+        // poll enables with GITSCM polling anote
 
 
         stage('Build pulled code') {
