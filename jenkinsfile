@@ -17,14 +17,8 @@ pipeline {
                 }
             }   
         }
-        // stage('Execute test cases') {
-        //     steps {
-        //         script {
-        //             sh 'mvn clean test'
-        //         }
-        //     }
-        // }
 
+        // checking NGROK for git webhook
         // ngrok added
         // csrf disabled
         // csrf
